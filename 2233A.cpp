@@ -20,9 +20,9 @@ int main(){
         }
         else {
             int remaining = n - z * x;
-            hours_ai = z + (remaining + (x + 10 * y) - 1) / (x + 10 * y); //HOW TO DO CEIL W INTEGERS
+            hours_ai = z + (remaining + (x + 10 * y) - 1) / (x + 10 * y); //how to do ceil w integers
         }
         cout << min(hours_noai, hours_ai) << '\n';
     }
-    
+    //notes- best not to do simulation for small memory and time limit. use simple math formulas
 }
